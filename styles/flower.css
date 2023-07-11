@@ -1,0 +1,70 @@
+body {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    /* width: 1920px; */
+    /* height: 850px; */
+    background-color:rgba(229, 84, 115, 0.10);
+
+}
+
+.banner {
+    /* padding-bottom: 50px; */
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 0px;
+    display: flex;
+    
+    
+
+}
+
+.banner-text {
+    text-align: left;
+    /* padding-top: 100px; */
+    align-content: center;
+    
+    
+    
+
+}
+
+.profile-pic {
+    width: 635px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    
+    
+}
+
+
+.banner-heading {
+    font-size: 40px;
+font-style: normal;
+font-weight: 800;
+margin-bottom: 0px;
+color: #272727;
+}
+
+.banner-doc {
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+margin-top: 30px;
+}
+
+.btn-primary {
+    color: #FFF;
+font-family: Lato;
+padding-top: 6px;
+padding-right: 12px;
+padding-bottom: 6px;
+padding-left: 12px;
+
+border: none;
+border-radius: 6px;
+background: #E55473;
+}
