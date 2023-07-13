@@ -259,24 +259,79 @@ body {
 }
 
 .para {
-   color: rgba(39, 39, 39, 0.60);
-   font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
 }
-.head-para{
+
+.head-para {
     text-align: center;
 }
-.instagram-image{
+
+.instagram-image {
     display: flex;
     gap: 24px;
     margin-left: 240px;
     margin-right: 240px;
     margin-top: 50px;
-    
+
 }
-.rose-poster{
+
+.rose-poster {
     margin-left: 240px;
     margin-right: 240px;
     margin-top: 100px;
     border-radius: 8px;
     background: lightgray;
 }
+
+.contact {
+    text-align: center;
+    padding: 100px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.contact-title {
+    color: #272727;
+    font-size: 40px;
+}
+
+.email-info {
+    display: flex;
+    gap: 20px;
+    
+    justify-content: center;
+}
+
+
+.input-email {
+    width: 350px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-top: 5px;
+    padding-right: 250px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.sub-button {
+    width: 150px;
+    color: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    background-color: #E55473 ;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+.contact-image{
+    position: absolute;
+}
+.contact-info{
+    position: relative;
+}
+
+.shop-footer {}
