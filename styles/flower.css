@@ -1,34 +1,23 @@
 body {
-    /* width: 1200px; */
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
 .header {
-    /* width: 1920px; */
     height: 450px;
     background-color: rgba(229, 84, 115, 0.10);
-
 }
 
 .banner {
-    /* padding-bottom: 50px; */
     padding-right: 200px;
     padding-left: 200px;
     padding-bottom: 0px;
     display: flex;
-
-
-
 }
 
 .banner-text {
     text-align: left;
-    /* padding-top: 100px; */
     align-content: center;
-
-
-
 
 }
 
@@ -36,17 +25,12 @@ body {
     width: 735px;
     padding-top: 50px;
     padding-bottom: 0px;
-
-
-
 }
-
 
 .banner-heading {
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    /* margin-bottom: 0px; */
     color: #272727;
 }
 
@@ -64,7 +48,6 @@ body {
     padding-right: 12px;
     padding-bottom: 6px;
     padding-left: 12px;
-
     border: none;
     border-radius: 6px;
     background: #E55473;
@@ -72,9 +55,6 @@ body {
 
 .main {
     background: #FFF;
-    /* margin-right: 240px;
-    margin-left: 240px; */
-
 }
 
 .title {
@@ -99,43 +79,24 @@ body {
 }
 
 .featured-image {
-
-    /* border-radius: 50px 50px; */
     display: flex;
     gap: 2px;
     margin-left: 240px;
     margin-right: 240px;
-    /* padding-top: 10px;
-    padding-left: 200px;
-     padding-right: 200px; */
-    /* width: 300px;  */
-
     justify-content: space-around;
     text-align: center;
-
 }
 
 .featured-flowers-1 {
-    /* border-top: 110px; */
-    /* border-right: 78px; */
-    /* border-left: 76px; */
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding-top: 105px;
-
     padding-left: 50px;
     padding-right: 50px;
     width: auto;
-
-
-
 }
 
 .featured-flowers-2 {
-    /* border-top: 117px; */
-    /* border-right: 47px; */
-    /* border-left: 47px; */
-    /* border-bottom: 51px; */
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding-top: 117px;
@@ -143,9 +104,7 @@ body {
     padding-bottom: 46px;
     padding-left: 47px;
     width: auto;
-
 }
-
 
 .featured-flowers-3 {
     border-radius: 300px 300px 0px 0px;
@@ -155,14 +114,12 @@ body {
     padding-right: 75px;
     padding-bottom: 0px;
     width: auto;
-
 }
 
 .pink {
     color: #272727;
     text-align: center;
     font-size: 24px;
-
 }
 
 .fresh-flowers {
@@ -179,36 +136,24 @@ body {
 }
 
 .flower-one {
-
     text-align: center;
-
 }
 
 .flower-two {
-
     text-align: center;
-
 }
 
 .flower-three {
-
     text-align: center;
-
 }
 
 .hot-deal-section {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    /* padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 380px; */
     display: flex;
-
-
 }
 
 .hot-banner {
-    /* align-items: center; */
     padding-top: 150px;
     padding-bottom: 150px;
     padding-left: 380px;
@@ -228,13 +173,9 @@ body {
 
 .description {
     display: flex;
-    /* width: 594px; */
-    /* flex-direction: column; */
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-
     font-size: 18px;
-
 }
 
 .btn-primary-two {
@@ -250,12 +191,10 @@ body {
     background: #E55473;
 }
 
-
-
 .headline {
     color: #272727;
     font-size: 40px;
-    /* font-weight: 800; */
+
 }
 
 .para {
@@ -286,9 +225,10 @@ body {
 
 .contact {
     text-align: center;
-    padding: 100px;
+    padding-top: 150px;
     margin-left: 240px;
     margin-right: 240px;
+    padding-bottom: 48px;
 }
 
 .contact-title {
@@ -299,8 +239,9 @@ body {
 .email-info {
     display: flex;
     gap: 20px;
-    
+    margin-bottom: 200px;
     justify-content: center;
+
 }
 
 
@@ -321,17 +262,57 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 8px;
-    background-color: #E55473 ;
+    background-color: #E55473;
     font-size: 20px;
     font-weight: 700;
 
 
 }
-.contact-image{
+
+.contact-image {
     position: absolute;
 }
-.contact-info{
+
+.contact-info {
     position: relative;
 }
 
-.shop-footer {}
+.shop-footer {
+    background: #111010;
+    color: #FFF;
+    font-size: 48px;
+
+
+}
+
+.footer-title {
+    padding-top: 128px;
+    padding-left: 830px;
+    padding-right: 830px;
+
+}
+
+.footer-first-para {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+
+
+}
+
+.footer-second-para {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 128px;
+    padding-top: 30px;
+}
+
+.yellow {
+    color: #E55473;
+    font-size: 48px;
+}
